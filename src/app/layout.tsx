@@ -21,7 +21,7 @@ const instrumentSerif = Instrument_Serif({
 });
 
 const dirtyLine = localFont({
-  src: "../../public/fonts/DirtyLine-Regular.woff2",
+  src: "../../public/fonts/Dirtyline-Regular.woff2",
   // display: 'swap',
   variable: "--font-dirty-line",
 });
