@@ -6,7 +6,7 @@ import { NavItem } from "./nav-item";
 
 const HeaderPanel = React.forwardRef<HTMLDivElement, HeaderPanelProps>(
   ({ data, isOpen, onClose, className }, ref) => {
-    const { middle, last } = getNavSlices(data);
+    const { middle } = getNavSlices(data);
 
     const handleOnClose = useCallback(() => {
       onClose?.();
@@ -14,7 +14,7 @@ const HeaderPanel = React.forwardRef<HTMLDivElement, HeaderPanelProps>(
 
     const panelClasses = useMemo(() => {
       return cn(
-        "nav-container top-0 left-0 col-span-full h-[90%] lg:h-full w-full overflow-hidden fixed lg:relative  lg:col-start-10 xl:col-start-11 lg:col-end-13",
+        "nav-container top-0 left-0 col-span-full h-[90%] lg:h-full w-full overflow-hidden fixed lg:relative  lg:col-start-10 :col-start-11 lg:col-end-13",
         "bg-white lg:bg-transparent",
         "lg:grid lg:translate-y-0",
         "px-container lg:px-0",
