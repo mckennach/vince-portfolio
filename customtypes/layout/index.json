@@ -1,0 +1,45 @@
+{
+  "format": "custom",
+  "id": "layout",
+  "label": "Layout",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Navigation": {
+      "header_title": {
+        "type": "Text",
+        "config": {
+          "label": "Header Title",
+          "placeholder": "Header Navigation"
+        }
+      },
+      "logo": {
+        "type": "Image",
+        "config": {
+          "label": "Logo",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "submark": {
+        "type": "Image",
+        "config": {
+          "label": "Submark",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "nav_item": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    }
+  }
+}

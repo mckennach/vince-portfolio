@@ -1,0 +1,47 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "description": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "Nulla mollit consectetur eu aliquip. Excepteur eiusmod velit incididunt aliqua qui proident commodo anim elit exercitation."
+            }
+          }
+        ]
+      },
+      "links": {
+        "__TYPE__": "GroupContentType",
+        "value": [
+          {
+            "__TYPE__": "GroupItemContent",
+            "value": [
+              [
+                "cta",
+                {
+                  "key": "8a678969-b748-4bc5-afd1-bce0dadf5c3e",
+                  "__TYPE__": "LinkContent",
+                  "value": {
+                    "__TYPE__": "ExternalLink",
+                    "url": "http://google.com",
+                    "text": "whistle"
+                  }
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      "heading": {
+        "__TYPE__": "FieldContent",
+        "value": "wire",
+        "type": "Text"
+      }
+    },
+    "items": []
+  }
+]

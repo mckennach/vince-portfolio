@@ -1,0 +1,23 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "label": {
+        "__TYPE__": "FieldContent",
+        "value": "specific",
+        "type": "Text"
+      },
+      "link": {
+        "key": "9b4b8f45-33ad-474a-a390-aa165d89311a",
+        "__TYPE__": "LinkContent",
+        "value": {
+          "__TYPE__": "ExternalLink",
+          "url": "http://twitter.com",
+          "text": "it"
+        }
+      }
+    },
+    "items": []
+  }
+]

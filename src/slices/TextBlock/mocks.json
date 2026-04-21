@@ -1,0 +1,30 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "title": {
+        "__TYPE__": "FieldContent",
+        "value": "education",
+        "type": "Text"
+      },
+      "description": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "Ipsum et duis nisi eu sit ipsum laboris nisi ea ea adipisicing. Voluptate aute consectetur duis ipsum consectetur. Ut eu proident adipisicing laborum elit eiusmod consectetur sunt."
+            }
+          }
+        ]
+      },
+      "eyebrow": {
+        "__TYPE__": "FieldContent",
+        "value": "stretch",
+        "type": "Text"
+      }
+    },
+    "items": []
+  }
+]
