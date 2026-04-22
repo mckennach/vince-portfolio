@@ -12,7 +12,7 @@ const FeaturedProjects = ({ primary, className }: FeaturedProjectsProps) => {
       )}
     >
       <div className="grid grid-cols-6 items-center gap-8 lg:grid-cols-12">
-        <div className="col-span-full flex flex-col gap-y-8 lg:col-start-4 lg:col-end-10 xl:col-end-11">
+        <div className="col-span-full flex flex-col gap-y-8 md:col-end-10 lg:col-start-4 lg:col-end-10">
           {projects.map(({ project }, index) => {
             return <FeaturedProjectItem key={index} project={project} />;
           })}
